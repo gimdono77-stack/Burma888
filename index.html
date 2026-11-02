@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#35104f">
+<title>Burma888 | အကောင့်ဖွင့်ရန်</title>
+<style>
+:root{--purple:#42115f;--deep:#260738;--gold:#e8bd62}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{
+ min-height:100vh;display:grid;place-items:center;overflow:hidden;padding:24px;
+ font-family:"Noto Sans Myanmar","Myanmar Text","Pyidaungsu",sans-serif;color:var(--deep);
+ background:
+ radial-gradient(circle at 12% 38%,rgba(151,99,201,.23) 0 145px,transparent 146px),
+ radial-gradient(circle at 91% 16%,rgba(171,127,213,.19) 0 175px,transparent 176px),
+ radial-gradient(circle at 29% 105%,rgba(132,78,178,.17) 0 230px,transparent 231px),
+ linear-gradient(135deg,#f7f2fc 0%,#fff 48%,#f0e6fa 100%);
+ position:relative
+}
+.circle{position:fixed;border-radius:50%;pointer-events:none;border:1px solid rgba(99,47,139,.15);box-shadow:inset 0 0 50px rgba(99,47,139,.045),0 18px 60px rgba(50,16,75,.045)}
+.a{width:320px;height:320px;top:-145px;left:-85px}
+.b{width:210px;height:210px;top:12%;right:-105px;background:rgba(184,145,218,.07)}
+.c{width:410px;height:410px;bottom:-250px;right:12%}
+.d{width:125px;height:125px;bottom:12%;left:9%;background:rgba(142,91,184,.06)}
+main{
+ width:min(100%,720px);min-height:390px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px;
+ padding:clamp(36px,8vw,76px) 24px;text-align:center;border:1px solid rgba(112,72,143,.14);
+ border-radius:30px;background:rgba(255,255,255,.68);box-shadow:0 28px 90px rgba(55,20,78,.10);
+ backdrop-filter:blur(10px);position:relative;z-index:1
+}
+.tagline{margin:0;color:var(--purple);font-size:clamp(16px,2.8vw,22px);line-height:1.8;font-weight:600}
+.tagline:before,.tagline:after{content:"";display:inline-block;width:clamp(24px,8vw,70px);height:2px;vertical-align:middle;margin:0 15px 6px;border-radius:4px;background:linear-gradient(90deg,transparent,var(--gold),#713b91)}
+.tagline:after{transform:scaleX(-1)}
+.register{
+ display:inline-flex;align-items:center;justify-content:center;gap:16px;width:min(100%,370px);min-height:76px;padding:17px 30px;
+ border-radius:999px;border:2px solid #f1d17d;background:linear-gradient(135deg,#5a2078 0%,#35104f 55%,#260738 100%);
+ color:#fff;text-decoration:none;font-size:clamp(19px,3vw,25px);font-weight:700;
+ box-shadow:0 7px 0 rgba(61,20,82,.16),0 17px 34px rgba(67,24,91,.23),inset 0 1px 0 rgba(255,255,255,.2);
+ transition:transform .18s ease,box-shadow .18s ease,filter .18s ease
+}
+.register:hover{transform:translateY(-3px);filter:brightness(1.08);box-shadow:0 9px 0 rgba(61,20,82,.13),0 22px 38px rgba(67,24,91,.28)}
+.register:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+.arrow{font:28px/1 Arial,sans-serif}
+@media(max-width:520px){body{padding:16px}main{min-height:330px;border-radius:22px;gap:25px}.tagline:before,.tagline:after{margin-left:7px;margin-right:7px;width:20px}}
+@media(prefers-reduced-motion:reduce){.register{transition:none}}
+</style>
+</head>
+<body>
+<div class="circle a" aria-hidden="true"></div><div class="circle b" aria-hidden="true"></div>
+<div class="circle c" aria-hidden="true"></div><div class="circle d" aria-hidden="true"></div>
+<main>
+<p class="tagline">ယုံကြည်စွာ ဆော့ကစားနိုင်ပါသည်</p>
+<!-- Replace this destination with your official contact or registration link. -->
+<a class="register" href="https://www.burma888.com/" target="_blank" rel="noopener noreferrer">အကောင့်ဖွင့်ရန် <span class="arrow" aria-hidden="true">›</span></a>
+</main>
+</body>
+</html>
